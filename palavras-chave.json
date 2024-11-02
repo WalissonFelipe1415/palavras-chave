@@ -1,0 +1,21 @@
+{
+    "respostas": {
+      "dataLancamento": {
+        "palavrasChave": ["data de lançamento", "lançamento", "quando lança", "data lançamento", "lança quando"],
+        "resposta": "A data de lançamento é 2025-01-15."
+      },
+      "criador": {
+        "palavrasChave": ["criador", "quem fez", "autor", "desenvolvedor", "feito por"],
+        "resposta": "O criador é Walisson Felipe."
+      },
+      "atracoes": {
+        "palavrasChave": ["atrações", "brinquedos", "o que tem", "atração", "entretenimento"],
+        "resposta": "As atrações incluem Montanha-Russa, Roda Gigante, e Carrossel."
+      },
+      "veiculos": {
+        "palavrasChave": ["veículos", "carros", "veículo", "transporte", "motos"],
+        "resposta": "Os veículos disponíveis são Caminhão de Sorvete, Trem Fantasma, e Carro de Bate-Bate."
+      }
+    }
+  }
+  
