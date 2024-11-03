@@ -1,24 +1,52 @@
 {
   "perguntas": [
       {
-          "variantes": ["data de lançamento", "quando é o lançamento?", "qual a data de lançamento?", "data lançamento", "lançamento do jogo"],
-          "resposta": "A data de lançamento não definida!"
+          "variantes": ["data de lançamento", "quando é o lançamento?", "qual a data de lançamento?", "data lançamento", "lançamento do jogo","data","lançamento"],
+          "resposta": "A data de lançamento não definida!😁"
       },
       {
-          "variantes": ["quem criou o jogo?", "criador do jogo", "quem é o criador?", "quem fez o jogo", "desenvolvedor do jogo"],
-          "resposta": "O criador do jogo é Walisson Felipe."
+          "variantes": ["quem criou o jogo?", "criador do jogo", "quem é o criador?", "quem fez o jogo", "desenvolvedor do jogo","criador","desenvolvedor"],
+          "resposta": "O criador do jogo é Walisson Felipe 🤩."
       },
       {
           "variantes": ["carro", "caminhao", "carreta"],
           "resposta": "temos o 1635 o carro o uno"
       },
       {
+        "variantes": ["brinquedos", "atracoes"],
+        "resposta": "qual categoria seria?(divertido)ou(radical)🤔"
+    },
+    {
+        "variantes": ["divertido","brinquedo divertido" ],
+        "resposta": "roda gigante,carrinho de bate-bate 🤩"
+    },
+    {
+        "variantes": ["radical","brinquedo radical"],
+        "resposta": "Kamikaze,montanha russa 🤩"
+    },
+      {
           "variantes": ["ola", "oi", "opa","eae","oua","bot"],
           "resposta": "ola eu sou um bot,dependendo o que for dito não vou ter resposta"
       },
       {
-        "variantes": ["nao"],
-        "resposta": "porque não"
-    }
+        "variantes": ["nao","ruim","pessimo","chato"],
+        "resposta": "porque não gostou.😪"
+    },
+    {
+      "variantes": ["sim","gostei","legal","top","caraca","parabens"],
+      "resposta": "fico feliz😁"
+  },
+  {
+    "variantes": ["bom dia"],
+    "resposta": "bom dia 😁"
+  },
+  {
+    "variantes": ["boa tarde"],
+    "resposta": "boa tarde 😁"
+  },
+  {
+    "variantes": ["boa noite"],
+    "resposta": "boa noite 😁"
+  }
   ]
 }
