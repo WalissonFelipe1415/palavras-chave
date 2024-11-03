@@ -26,7 +26,7 @@
     },
       {
           "variantes": ["ola", "oi", "opa","eae","oua","bot"],
-          "resposta": "ola eu sou um bot,dependendo o que for dito não vou ter resposta consigo dizer sobre o truck park br😁"
+          "resposta": "ola eu sou um bot,dependendo o que for dito não vou ter resposta,consigo dizer sobre o truck park br😁"
       },
       {
         "variantes": ["nao","ruim","pessimo","chato"],
@@ -57,7 +57,7 @@
     "resposta": "bem e você"
   },
   {
-    "variantes": ["bem tambem","bem","bao"],
+    "variantes": ["bem","bao"],
     "resposta": "que bom😁."
   }
   ]
