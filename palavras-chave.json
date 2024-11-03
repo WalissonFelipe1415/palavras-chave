@@ -15,6 +15,10 @@
       {
           "variantes": ["ola", "oi", "opa","eae","oua","bot"],
           "resposta": "ola eu sou um bot,dependendo o que for dito não vou ter resposta"
-      }
+      },
+      {
+        "variantes": ["nao"],
+        "resposta": "porque não"
+    }
   ]
 }
