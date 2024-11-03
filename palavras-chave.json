@@ -26,7 +26,7 @@
     },
       {
           "variantes": ["ola", "oi", "opa","eae","oua","bot"],
-          "resposta": "ola eu sou um bot,dependendo o que for dito não vou ter resposta"
+          "resposta": "ola eu sou um bot,dependendo o que for dito não vou ter resposta consigo dizer sobre o truck park br😁"
       },
       {
         "variantes": ["nao","ruim","pessimo","chato"],
@@ -51,6 +51,14 @@
   {
     "variantes": ["qual e o discord","discord","qual e o instagram","instagram","qual e o youtube","youtube"],
     "resposta": "ABRIR-MENU-CONTATOS"
+  },
+  {
+    "variantes": ["tudo bem com voce","como vai","tudo bem com vc"],
+    "resposta": "bem e você"
+  },
+  {
+    "variantes": ["bem tambem","bem","bao"],
+    "resposta": "que bom😁."
   }
   ]
 }
