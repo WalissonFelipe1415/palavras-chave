@@ -75,10 +75,6 @@
   {
     "variantes": ["tem modo multiplayer", "jogar com amigos", "online"],
     "resposta": "Sim! Você pode emcontrar seus amigos no modo multiplayer local via(LAN)! 👑"
-  },
-  {
-    "variantes": [ "MULTIPLAYER"],
-    "resposta": "Sim!modo multiplayer local via(LAN)! 😁"
   }
   ]
 }
