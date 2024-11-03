@@ -2,11 +2,19 @@
   "perguntas": [
       {
           "variantes": ["data de lançamento", "quando é o lançamento?", "qual a data de lançamento?", "data lançamento", "lançamento do jogo"],
-          "resposta": "A data de lançamento é 2025-01-15."
+          "resposta": "A data de lançamento não definida!"
       },
       {
           "variantes": ["quem criou o jogo?", "criador do jogo", "quem é o criador?", "quem fez o jogo", "desenvolvedor do jogo"],
           "resposta": "O criador do jogo é Walisson Felipe."
+      },
+      {
+          "variantes": ["carro", "caminhao", "carreta"],
+          "resposta": "temos o 1635 o carro o uno"
+      },
+      {
+          "variantes": ["ola", "oi", "opa","eae","oua","bot"],
+          "resposta": "ola eu sou um bot,dependendo o que for dito não vou ter resposta"
       }
   ]
 }
