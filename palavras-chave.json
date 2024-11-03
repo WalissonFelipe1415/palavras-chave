@@ -53,7 +53,7 @@
     "resposta": "ABRIR-MENU-CONTATOS"
   },
   {
-    "variantes": ["tudo bem com voce","como vai","tudo bem com vc"],
+    "variantes": ["tudo bem com voce","como vai","tudo bem com vc","tudo bem"],
     "resposta": "bem e você"
   },
   {
