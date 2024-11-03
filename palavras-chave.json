@@ -59,6 +59,14 @@
   {
     "variantes": ["bem","bao"],
     "resposta": "que bom😁."
+  },
+  {
+    "variantes": ["criacao desse site","site criado","quem criou esse site","criou esse site"],
+    "resposta": "walisson felipe criou esse site com as propias mãos."
+  },
+  {
+    "variantes": ["criacao desse chat","chat criado","quem criou esse chat","criou esse chat"],
+    "resposta": "walisson felipe criou esse chat com as propias mãos."
   }
   ]
 }
