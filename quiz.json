@@ -3,6 +3,12 @@
         "question": "dados conectados.aqui ea pergunta",
         "options": ["A", "B", "C", "D"],
         "answer": 3,
-        "level": 2
+        "level": 1
+    },
+{
+        "question": "dados conectados.aqui ea pergunta",
+        "options": ["A", "B", "C", "D"],
+        "answer": 0,
+        "level": 1
     }
 ]
