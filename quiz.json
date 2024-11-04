@@ -1,0 +1,17 @@
+[
+    {
+        "question": "Qual é a capital do Brasil?",
+        "options": ["Rio de Janeiro", "Brasília", "São Paulo", "Salvador"],
+        "answer": 1
+    },
+    {
+        "question": "Quem pintou a Mona Lisa?",
+        "options": ["Van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+        "answer": 2
+    },
+    {
+        "question": "Qual é o maior planeta do Sistema Solar?",
+        "options": ["Terra", "Júpiter", "Saturno", "Marte"],
+        "answer": 1
+    }
+]
