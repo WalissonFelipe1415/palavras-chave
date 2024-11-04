@@ -3,7 +3,7 @@ let questions = [];
 let currentQuestion = 0;
 let score = 0;
 let level = 1; // 1 para nível fácil, 2 para nível difícil
-const enableLevel2 = false; // Defina como 'false' se não quiser utilizar o nível 2
+const enableLevel2 = true; // Defina como 'false' se não quiser utilizar o nível 2
 
 async function fetchQuestions() {
     try {

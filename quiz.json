@@ -1,14 +1,8 @@
 [
     {
-        "question": "1.dados conectados.aqui ea pergunta",
-        "options": ["A", "B", "C", "D"],
-        "answer": 0,
+        "question": "qual desses alimentos faz mal a saude",
+        "options": ["iorgute", "alho", "tomate", "granola"],
+        "answer": 3,
         "level": 1
-    },
-{
-        "question": "2.dados conectados.aqui ea pergunta",
-        "options": ["A", "B", "C", "D"],
-        "answer": 0,
-        "level": 2
     }
 ]
