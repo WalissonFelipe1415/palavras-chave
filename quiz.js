@@ -7,7 +7,7 @@ const enableLevel2 = true; // Defina como 'false' se não quiser utilizar o nív
 
 async function fetchQuestions() {
     try {
-        const response = await fetch("https://raw.githubusercontent.com/WalissonFelipe1415/palavras-chave/main/quiz.json");
+        const response = await fetch("https://raw.githubusercontent.com/WalissonFelipe1415/palavras-chave/refs/heads/main/quiz.json");
 
         if (!response.ok) {
             throw new Error(`Erro ao buscar o arquivo: ${response.status}`);
