@@ -4,10 +4,11 @@
         "options": ["iorgute", "alho", "tomate", "granola"],
         "answer": 3,
         "level": 1
-    },{
+    },
+    {
         "question": "qual desses alimentos NÃO faz mal a saude",
         "options": ["iorgute", "alho", "tomate", "granola"],
-        "answer": 3,
+        "answer": 0,
         "level": 1
     }
 ]
