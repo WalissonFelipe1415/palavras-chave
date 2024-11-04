@@ -1,14 +1,14 @@
 [
     {
-        "question": "qual desses alimentos faz mal a saude",
-        "options": ["iorgute", "alho", "tomate", "granola"],
-        "answer": 3,
-        "level": 1
+        "level": 1,
+        "question": "Qual é a capital da França?",
+        "options": ["Paris", "Londres", "Roma", "Berlim"],
+        "answer": 0
     },
     {
-        "question": "qual desses alimentos NÃO faz mal a saude",
-        "options": ["iorgute", "alho", "tomate", "granola"],
-        "answer": 0,
-        "level": 1
+        "level": 2,
+        "question": "Qual é a fórmula da água?",
+        "options": ["H2O", "CO2", "O2", "NaCl"],
+        "answer": 0
     }
 ]
