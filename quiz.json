@@ -1,77 +1,77 @@
 [
     {
-        "question": "Qual é a capital do Brasil?",
-        "options": ["Rio de Janeiro", "Brasília", "São Paulo", "Salvador"],
+        "question": "Qual desses alimentos é conhecido por promover a longevidade?",
+        "options": ["Refrigerante", "Nozes", "Bacon", "Sorvete"],
         "answer": 1
     },
     {
-        "question": "Quem pintou a Mona Lisa?",
-        "options": ["Van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+        "question": "O consumo frequente de qual alimento pode prejudicar a saúde a longo prazo?",
+        "options": ["Verduras", "Peixes", "Frituras", "Chá verde"],
         "answer": 2
     },
     {
-        "question": "Qual é o maior planeta do Sistema Solar?",
-        "options": ["Terra", "Júpiter", "Saturno", "Marte"],
+        "question": "Qual desses alimentos é rico em antioxidantes, importantes para a longevidade?",
+        "options": ["Batata frita", "Mirtilos", "Pão branco", "Balas"],
         "answer": 1
     },
     {
-        "question": "Em qual continente fica o Egito?",
-        "options": ["Ásia", "Europa", "África", "Oceania"],
-        "answer": 2
-    },
-    {
-        "question": "Quem escreveu 'Dom Quixote'?",
-        "options": ["Miguel de Cervantes", "William Shakespeare", "Fernando Pessoa", "Jorge Amado"],
-        "answer": 0
-    },
-    {
-        "question": "Quantos estados o Brasil possui?",
-        "options": ["26", "25", "30", "27"],
-        "answer": 3
-    },
-    {
-        "question": "Qual é o maior oceano do mundo?",
-        "options": ["Atlântico", "Índico", "Ártico", "Pacífico"],
-        "answer": 3
-    },
-    {
-        "question": "Qual é o animal mais rápido do mundo?",
-        "options": ["Leão", "Guepardo", "Falcão-peregrino", "Águia"],
-        "answer": 2
-    },
-    {
-        "question": "Quem descobriu o Brasil?",
-        "options": ["Cristóvão Colombo", "Pedro Álvares Cabral", "Vasco da Gama", "Fernão de Magalhães"],
+        "question": "Qual bebida é recomendada para uma vida longa quando consumida com moderação?",
+        "options": ["Refrigerante", "Água", "Suco de caixinha", "Álcool em excesso"],
         "answer": 1
     },
     {
-        "question": "Qual é a fórmula química da água?",
-        "options": ["H2O", "CO2", "O2", "CH4"],
-        "answer": 0
-    },
-    {
-        "question": "Qual foi o primeiro homem a pisar na Lua?",
-        "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Michael Collins"],
-        "answer": 0
-    },
-    {
-        "question": "Qual é a moeda dos Estados Unidos?",
-        "options": ["Euro", "Peso", "Dólar", "Real"],
+        "question": "O consumo de quais tipos de alimentos processados deve ser evitado para uma vida mais saudável?",
+        "options": ["Frutas frescas", "Vegetais", "Embutidos", "Grãos integrais"],
         "answer": 2
     },
     {
-        "question": "Qual é o país mais populoso do mundo?",
-        "options": ["Brasil", "Índia", "Estados Unidos", "China"],
-        "answer": 3
-    },
-    {
-        "question": "Qual é a menor unidade da matéria?",
-        "options": ["Átomo", "Molécula", "Próton", "Célula"],
+        "question": "Qual desses é considerado um alimento anti-inflamatório que ajuda na longevidade?",
+        "options": ["Salmão", "Pizza", "Bolacha recheada", "Refrigerante"],
         "answer": 0
     },
     {
-        "question": "Quem inventou a lâmpada elétrica?",
-        "options": ["Nikola Tesla", "Albert Einstein", "Thomas Edison", "Alexander Bell"],
+        "question": "O consumo excessivo de qual tipo de carne pode reduzir a longevidade?",
+        "options": ["Frango", "Carne vermelha processada", "Peixe", "Peru"],
+        "answer": 1
+    },
+    {
+        "question": "Qual desses é considerado um alimento benéfico para o coração e longevidade?",
+        "options": ["Batata chips", "Aveia", "Pizza congelada", "Hambúrguer"],
+        "answer": 1
+    },
+    {
+        "question": "O consumo de qual bebida é associado a uma maior expectativa de vida?",
+        "options": ["Chá verde", "Refrigerante", "Café com açúcar", "Energéticos"],
+        "answer": 0
+    },
+    {
+        "question": "Qual destes alimentos ricos em fibras é benéfico para a saúde e longevidade?",
+        "options": ["Brócolis", "Biscoitos doces", "Chips de batata", "Carne vermelha"],
+        "answer": 0
+    },
+    {
+        "question": "O consumo moderado de qual alimento é associado a benefícios cardiovasculares?",
+        "options": ["Chocolate amargo", "Bacon", "Frango frito", "Sorvete"],
+        "answer": 0
+    },
+    {
+        "question": "Qual desses alimentos contém gorduras saudáveis que promovem a longevidade?",
+        "options": ["Abacate", "Manteiga", "Carne gordurosa", "Salgadinho"],
+        "answer": 0
+    },
+    {
+        "question": "Qual tipo de óleo é mais recomendado para a saúde a longo prazo?",
+        "options": ["Óleo de coco", "Óleo de palma", "Óleo de canola", "Óleo de soja"],
         "answer": 2
+    },
+    {
+        "question": "O consumo excessivo de qual tipo de carboidrato pode ser prejudicial?",
+        "options": ["Carboidratos refinados", "Carboidratos complexos", "Fibras", "Proteínas"],
+        "answer": 0
+    },
+    {
+        "question": "Qual dessas frutas é rica em antioxidantes e ajuda na longevidade?",
+        "options": ["Maçã", "Uvas", "Melancia", "Banana"],
+        "answer": 1
     }
 ]
