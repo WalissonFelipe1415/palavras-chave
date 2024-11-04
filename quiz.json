@@ -1,80 +1,8 @@
 [
     {
-        "question": "Qual desses alimentos é conhecido por promover a longevidade?",
-        "options": ["Refrigerante", "Nozes", "Bacon", "Sorvete"],
+        "question": "dados conectados.aqui ea pergunta",
+        "options": ["A", "B", "C", "D"],
         "answer": 1,
         "level": 1
-    },
-    {
-        "question": "O consumo frequente de qual alimento pode prejudicar a saúde a longo prazo?",
-        "options": ["Verduras", "Peixes", "Frituras", "Chá verde"],
-        "answer": 2,
-        "level": 1
-    },
-    {
-        "question": "Qual desses alimentos é rico em antioxidantes, importantes para a longevidade?",
-        "options": ["Batata frita", "Mirtilos", "Pão branco", "Balas"],
-        "answer": 1,
-        "level": 1
-    },
-    {
-        "question": "Qual bebida é recomendada para uma vida longa quando consumida com moderação?",
-        "options": ["Refrigerante", "Água", "Suco de caixinha", "Álcool em excesso"],
-        "answer": 1,
-        "level": 1
-    },
-    {
-        "question": "Qual desses alimentos contém gorduras saudáveis que promovem a longevidade?",
-        "options": ["Abacate", "Manteiga", "Carne gordurosa", "Salgadinho"],
-        "answer": 0,
-        "level": 1
-    },
-    {
-        "question": "O consumo excessivo de qual tipo de carne pode reduzir a longevidade?",
-        "options": ["Frango", "Carne vermelha processada", "Peixe", "Peru"],
-        "answer": 1,
-        "level": 1
-    },
-    {
-        "question": "Qual destes alimentos ricos em fibras é benéfico para a saúde e longevidade?",
-        "options": ["Brócolis", "Biscoitos doces", "Chips de batata", "Carne vermelha"],
-        "answer": 0,
-        "level": 1
-    },
-    {
-        "question": "O consumo excessivo de qual tipo de carboidrato pode ser prejudicial?",
-        "options": ["Carboidratos refinados", "Carboidratos complexos", "Fibras", "Proteínas"],
-        "answer": 0,
-        "level": 1
-    },
-    {
-        "question": "Qual desses alimentos é considerado mais difícil de digerir e pode impactar a saúde a longo prazo?",
-        "options": ["Salmão", "Carne vermelha", "Frutas", "Vegetais"],
-        "answer": 1,
-        "level": 2
-    },
-    {
-        "question": "Qual desses alimentos pode aumentar o risco de doenças cardíacas se consumido em excesso?",
-        "options": ["Nozes", "Carne processada", "Sopa caseira", "Peixe"],
-        "answer": 1,
-        "level": 2
-    },
-    {
-        "question": "Qual destes vegetais é conhecido por suas propriedades anti-inflamatórias?",
-        "options": ["Cenoura", "Batata", "Espinafre", "Beterraba"],
-        "answer": 2,
-        "level": 2
-    },
-    {
-        "question": "O que deve ser evitado para uma dieta saudável a longo prazo?",
-        "options": ["Frutas frescas", "Vegetais crus", "Açúcar adicionado", "Grãos integrais"],
-        "answer": 2,
-        "level": 2
-    },
-    {
-        "question": "Qual desses alimentos é conhecido por ser altamente processado e deve ser evitado?",
-        "options": ["Maçã", "Salgadinhos", "Arroz integral", "Frutas secas"],
-        "answer": 1,
-        "level": 2
     }
 ]
