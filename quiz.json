@@ -4,12 +4,5 @@
         "options": ["tomate", "nozes", "mertilos", "ruim"],
         "answer": 3,
         "level": 1
-    },
-    {
-        "question": "2)ABCDEFG",
-        "options": ["tomate", "", "C", "D"],
-        "answer": 0,
-        "level": 1
-    }
-    
+   }  
 ]
