@@ -1,13 +1,13 @@
 [
     {
-        "question": "1)ABCDEFG",
-        "options": ["A", "B", "C", "D"],
+        "question": "1) alimento ruim para uma boa longevidade",
+        "options": ["tomate", "nozes", "mertilos", "ruim"],
         "answer": 0,
         "level": 1
     },
     {
         "question": "2)ABCDEFG",
-        "options": ["A", "B", "C", "D"],
+        "options": ["tomate", "", "C", "D"],
         "answer": 0,
         "level": 1
     }
