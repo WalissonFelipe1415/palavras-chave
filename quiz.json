@@ -7,8 +7,7 @@
             "Alimentos fritos e gordurosos",
             "Açúcar refinado e bebidas açucaradas"
         ],
-        "answer": 1,
-        "level": 1
+        "answer": 1
     },
     {
         "question": "Qual é o impacto do consumo regular de alimentos ultraprocessados na longevidade?",
@@ -18,8 +17,7 @@
             "Aumenta a longevidade",
             "É saudável apenas em quantidades moderadas"
         ],
-        "answer": 1,
-        "level": 1
+        "answer": 1
     },
     {
         "question": "Quais frutas e vegetais são mais benéficos para a longevidade?",
@@ -29,8 +27,7 @@
             "Abacaxi e manga em calda",
             "Milho e mandioca fritos"
         ],
-        "answer": 1,
-        "level": 1
+        "answer": 1
     },
     {
         "question": "Quais gorduras são consideradas boas para a saúde e a longevidade?",
@@ -40,8 +37,7 @@
             "Gordura trans e óleos refinados",
             "Manteiga e banha animal"
         ],
-        "answer": 1,
-        "level": 1
+        "answer": 1
     },
     {
         "question": "Como o consumo de carne vermelha afeta a expectativa de vida?",
@@ -51,8 +47,7 @@
             "Não tem impacto algum na saúde",
             "Só é prejudicial quando não cozida corretamente"
         ],
-        "answer": 1,
-        "level": 1
+        "answer": 1
     },
     {
         "question": "É verdade que dietas com baixo consumo de açúcar aumentam a longevidade?",
@@ -62,8 +57,7 @@
             "Apenas quando o açúcar é natural",
             "Não há relação entre açúcar e longevidade"
         ],
-        "answer": 0,
-        "level": 1
+        "answer": 0
     },
     {
         "question": "Os alimentos fermentados, como iogurte e kimchi, podem aumentar a expectativa de vida?",
@@ -73,8 +67,7 @@
             "Sim, mas só em pequenas quantidades",
             "Não, são prejudiciais à saúde"
         ],
-        "answer": 0,
-        "level": 1
+        "answer": 0
     },
     {
         "question": "Existe uma quantidade ideal de café ou chá para melhorar a longevidade?",
@@ -84,8 +77,7 @@
             "Apenas chá é benéfico",
             "Não há consenso entre os estudos"
         ],
-        "answer": 0,
-        "level": 1
+        "answer": 0
     },
     {
         "question": "O consumo moderado de vinho tinto realmente beneficia a saúde a longo prazo?",
@@ -95,8 +87,7 @@
             "Apenas em doses acima de 250ml por dia",
             "Só vinho branco tem benefícios"
         ],
-        "answer": 0,
-        "level": 1
+        "answer": 0
     },
     {
         "question": "Como os grãos integrais contribuem para uma maior expectativa de vida?",
@@ -106,7 +97,6 @@
             "Prejudicam a digestão",
             "São benéficos apenas para o coração"
         ],
-        "answer": 0,
-        "level": 1
+        "answer": 0
     }
 ]
