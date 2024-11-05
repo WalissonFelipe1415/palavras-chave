@@ -1,4 +1,4 @@
-
+let allQuestions = [];
 let questions = [];
 let currentQuestion = 0;
 let score = 0;
@@ -13,36 +13,42 @@ async function fetchQuestions() {
             throw new Error(`Erro ao buscar o arquivo: ${response.status}`);
         }
 
-        const data = await response.json();
-        console.log("Dados carregados com sucesso:", data); // Verifica o carregamento do JSON
-
-        // Filtra as perguntas por nível e limita o número conforme o nível
-        questions = data.filter(q => q.level === level);
-        if (level === 1) {
-            questions = questions.slice(0, 5); // 5 perguntas para nível fácil
-        } else if (level === 2) {
-            questions = questions.slice(0, 10); // 10 perguntas para nível difícil
-        }
-
-        if (questions.length === 0) {
-            throw new Error("Nenhuma pergunta encontrada para este nível.");
-        }
-
-        loadQuestion();  // Carrega a primeira pergunta do nível
+        allQuestions = await response.json(); // Armazena todas as perguntas carregadas
+        console.log("Dados carregados com sucesso:", allQuestions);
+        
+        startLevel(level); // Inicia o nível 1 após carregar as perguntas
     } catch (error) {
         console.error("Erro ao carregar perguntas:", error);
         alert("Não foi possível carregar as perguntas. Verifique a URL e a conexão com a internet.");
     }
 }
 
+function loadQuestionsByLevel(selectedLevel) {
+    questions = allQuestions.filter(q => q.level === selectedLevel);
+
+    if (selectedLevel === 1) {
+        questions = questions.slice(0, 5); // 5 perguntas para nível fácil
+    } else if (selectedLevel === 2) {
+        questions = questions.slice(0, 10); // 10 perguntas para nível difícil
+    }
+
+    currentQuestion = 0;
+    loadQuestion(); // Carrega a primeira pergunta do nível atual
+    updateLevelDisplay(); // Atualiza a exibição do nível
+}
+
 function loadQuestion() {
     if (currentQuestion >= questions.length) {
+        // Quando todas as perguntas de um nível forem respondidas
         if (level === 1 && enableLevel2) {
-            showLevelComplete();
+            // Se estiver no Nível 1 e o Nível 2 estiver habilitado
+            level = 2; // Muda para o Nível 2
+            loadQuestionsByLevel(level); // Carrega as perguntas do Nível 2
+            return; // Sai da função para evitar a chamada de showResults
         } else {
-            showResults();
+            showResults(); // Caso contrário, mostre os resultados
+            return;
         }
-        return;
     }
 
     document.getElementById("nextBtn").disabled = true;
@@ -64,41 +70,44 @@ function selectOption(selectedOption) {
 
     if (selectedOption === question.answer) {
         score++;
-        optionButtons[selectedOption].style.backgroundColor = "#28a745";
+        optionButtons[selectedOption].style.backgroundColor = "#28a745"; // Verde se acertar
     } else {
-        optionButtons[selectedOption].style.backgroundColor = "#dc3545";
-        optionButtons[question.answer].style.backgroundColor = "#28a745";
+        optionButtons[selectedOption].style.backgroundColor = "#dc3545"; // Vermelho se errar
+        optionButtons[question.answer].style.backgroundColor = "#28a745"; // Verde para a resposta correta
     }
 
     optionButtons.forEach(button => button.disabled = true);
     document.getElementById("nextBtn").disabled = false;
-}
 
-function nextQuestion() {
-    currentQuestion++;
-    loadQuestion();
-}
-
-function showLevelComplete() {
-    const quizContainer = document.getElementById("quiz");
-    quizContainer.innerHTML = `
-        <h2>Parabéns! Você completou o nível 1.</h2>
-        ${enableLevel2 ? '<button id="level2Btn" onclick="startLevel(2)">Ir para o Nível 2</button>' : ''}
-    `;
+    // Espera 1 segundo antes de carregar a próxima pergunta
+    setTimeout(() => {
+        currentQuestion++;
+        loadQuestion();
+    }, 1000); // Espera 1 segundo antes de carregar a próxima pergunta
 }
 
 function showResults() {
     const quizContainer = document.getElementById("quiz");
-    quizContainer.innerHTML = `<h2>Você acertou ${score} de ${questions.length} perguntas!</h2>`;
+    const percentage = (score / questions.length) * 100; // Calcula a porcentagem de acertos
+    const congratulatoryMessage = percentage >= 60 ? "<h3>Parabéns! Você acertou ${score} de ${questions.length} perguntas!</h3>" : "";
+
+    quizContainer.innerHTML = `
+        <h2>Você acertou ${score} de ${questions.length} perguntas!</h2>
+        ${congratulatoryMessage}
+    `;
 }
 
 // Função para iniciar um nível específico
 function startLevel(selectedLevel) {
     level = selectedLevel;
-    currentQuestion = 0;
     score = 0;
-    fetchQuestions();
+    loadQuestionsByLevel(level);
 }
 
-// Inicia o quiz diretamente no nível 1
-startLevel(1);
+// Função para atualizar a exibição do nível
+function updateLevelDisplay() {
+    document.getElementById("levelDisplay").innerText = `Nível: ${level}`;
+}
+
+// Inicia o quiz diretamente no nível 1 ao carregar as perguntas
+fetchQuestions();

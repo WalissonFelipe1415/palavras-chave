@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+    <style>
+        /* Estilos simples para o quiz */
+    </style>
+</head>
+<body>
+    <div id="quiz">
+        <h1>Quiz de Perguntas</h1>
+        <div id="levelDisplay">Nível: 1</div> <!-- Exibe o nível atual -->
+        <div id="question"></div>
+        <div>
+            <button class="option" onclick="selectOption(0)">a</button>
+            <button class="option" onclick="selectOption(1)">b</button>
+            <button class="option" onclick="selectOption(2)">c</button>
+            <button class="option" onclick="selectOption(3)">d</button>
+        </div>
+        <button id="nextBtn" onclick="nextQuestion()" disabled>Próxima Pergunta</button>
+    </div>
+
+    <script src="seu-script.js"></script>
+</body>
+</html>
