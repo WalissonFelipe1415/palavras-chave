@@ -1,8 +1,8 @@
 [
     {
-        "question": "1) alimento ruim para uma boa longevidade",
-        "options": ["tomate", "nozes", "mertilos", "ruim"],
-        "answer": 3,
+        "question": "",
+        "options": ["", "", "", ""],
+        "answer": 0,
         "level": 1
    }  
 ]
