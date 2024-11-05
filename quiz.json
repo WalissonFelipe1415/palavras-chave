@@ -1,62 +1,9 @@
 [
     {
-        "question": "Qual é a capital da França?",
-        "options": ["Paris", "Londres", "Berlim", "Madrid"],
+        "question": "ABCDEFG",
+        "options": ["A", "B", "C", "D"],
         "answer": 0,
         "level": 1
-    },
-    {
-        "question": "Qual é o maior planeta do sistema solar?",
-        "options": ["Terra", "Júpiter", "Marte", "Saturno"],
-        "answer": 1,
-        "level": 1
-    },
-    {
-        "question": "Qual elemento tem o símbolo 'O'?",
-        "options": ["Ouro", "Oxigênio", "Prata", "Carbono"],
-        "answer": 1,
-        "level": 1
-    },
-    {
-        "question": "Qual é a raiz quadrada de 64?",
-        "options": ["6", "7", "8", "9"],
-        "answer": 2,
-        "level": 1
-    },
-    {
-        "question": "Quem pintou a Mona Lisa?",
-        "options": ["Vincent Van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
-        "answer": 2,
-        "level": 1
-    },
-    {
-        "question": "Qual é o país com o maior número de habitantes?",
-        "options": ["Índia", "Estados Unidos", "China", "Rússia"],
-        "answer": 2,
-        "level": 2
-    },
-    {
-        "question": "Em que ano ocorreu a queda do Muro de Berlim?",
-        "options": ["1987", "1988", "1989", "1990"],
-        "answer": 2,
-        "level": 2
-    },
-    {
-        "question": "Qual é o oceano mais profundo do mundo?",
-        "options": ["Atlântico", "Índico", "Ártico", "Pacífico"],
-        "answer": 3,
-        "level": 2
-    },
-    {
-        "question": "Quem escreveu 'Dom Quixote'?",
-        "options": ["Miguel de Cervantes", "William Shakespeare", "Gabriel García Márquez", "Pablo Neruda"],
-        "answer": 0,
-        "level": 2
-    },
-    {
-        "question": "Qual é o elemento químico com o símbolo 'Hg'?",
-        "options": ["Mercúrio", "Hélio", "Hidrogênio", "Cobre"],
-        "answer": 0,
-        "level": 2
     }
+    
 ]
