@@ -26,7 +26,7 @@
     },
       {
           "variantes": ["ola", "oi", "opa","eae","oua","bot"],
-          "resposta": "ola eu sou um bot,dependendo o que for dito não vou ter resposta,consigo dizer sobre o truck park br😁"
+          "resposta": "ola eu sou um bot,dependendo o que for dito não vou ter resposta o bot funciona com palavras chave,consigo dizer sobre o truck park br😁"
       },
       {
         "variantes": ["nao","ruim","pessimo","chato"],
@@ -71,6 +71,10 @@
   {
     "variantes": ["com quem eu falo","quem ta falando","quem e voce"],
     "resposta": "walisson felipe criou esse chat com as propias mãos."
+  },
+  {
+    "variantes": ["truck park br","sobre o jogo","jogo","fale sobre o jogo"],
+    "resposta": "Truck park br um jogo ainda em desenvolvimento enfrentou vários desafios para chegar aqui."
   }
   ]
 }
